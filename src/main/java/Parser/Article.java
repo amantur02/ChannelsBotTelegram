@@ -60,11 +60,22 @@ public class Article {
 
     @Override
     public String toString() {
-        return "Article{" +
-                "name='" + name + '\'' +
-                ", number='" + number + '\'' +
-                ", link='" + link + '\'' +
-                ", description='" + description + '\'' +
-                '}';
+        return  "==========================" + "\n" +
+                "Наименование:              " + name + '\n' +
+                "Подписчики:                " + number + '\n' +
+                "Ссылка:                    " + link + '\n' +
+                "Описание:                  " + description + '\n' +
+                "===========================";
     }
+//    public String toString() {
+//        return  "============================" + "\n" +
+//                "Страна:                     " + country + '\n' +
+//                "За все время:         " + totalCases + '\n' +
+//                "Новые случаи:        " + newCases + '\n' +
+//                "кол. смертей:          " + totalDeaths + '\n' +
+//                "Новые смерти:       " + newDeaths + '\n' +
+//                "Выздоровевшие:   " + totalRecovered + '\n' +
+//                "Болеющие:              " + activeCases + '\n' +
+//                "============================";
+//    }
 }
