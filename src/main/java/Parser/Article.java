@@ -61,10 +61,10 @@ public class Article {
     @Override
     public String toString() {
         return  "==========================" + "\n" +
-                "Наименование:              " + name + '\n' +
-                "Подписчики:                " + number + '\n' +
-                "Ссылка:                    " + link + '\n' +
-                "Описание:                  " + description + '\n' +
+                "Канал:              " + name + '\n' +
+                "Подписчики:  " + number + '\n' +
+                "Ссылка:          " + link + '\n' +
+                "Описание:      " + description + '\n' +
                 "===========================";
     }
 //    public String toString() {
