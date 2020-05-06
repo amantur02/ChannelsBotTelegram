@@ -68,6 +68,16 @@ public class Bot extends TelegramLongPollingBot {
                 for (int j = 11; j <= 20; j++)
                     sendMsg(msg, ParserTest2.getAllChannel(Channels.removeLastChar(text)).get(j).toString());//Вывожу парсинг каналы и удоляю 2 который присвоел
             }
+//        else if (text.equals("кто такой рыся")){
+//                sendMsg(msg,"Рыся Кот");
+//            }
+        if (text.equals("кто такой рыся")){
+            sendMsg(msg,"рыся кот");
+        }else if (text.equals("а айба")){
+            sendMsg(msg,"А айба лох");
+        }else if (text.equals("Курманбек")){
+            sendMsg(msg,"Блять у меня нет идей");
+        }
 //             else if (text.equals("Hello")){
 //                try {
 //                    execute(Buttons.sendInlineKeyBoardMessage("/news"));
